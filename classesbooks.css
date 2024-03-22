@@ -1,0 +1,68 @@
+.container{
+    display: flex;
+justify-content: center;
+
+}
+.books-card{
+    display: flex;
+    background: #bababa;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: space-evenly;
+    border-radius: 5px;
+}
+.books{
+    width: 45%;
+    height: auto;
+    display: flex;
+    padding: 0px 5px 0px 5px;
+    margin: 18px 1px 0px 0px;
+    background: white;
+    text-align: center;
+    border-radius: 10px;
+    align-items: center;
+}
+.img-con{
+    width: 50%;
+    margin: 4px 0px 0px 0px;
+}
+.books img{
+    width: 100%;
+    border-radius: 8px;
+}
+.detail-con{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: flex-start;
+}
+.detail-con p{
+    font-size: 23px;
+}
+.BName{
+    font-size: 35px;
+}
+.books button{
+    margin: 73px 0px 0px 0px;
+    font-size: 24px;
+    width: 88%;
+    background: #498acf;
+    color: #fafafa;
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 4px 1px 6px 0px;
+    cursor: pointer;
+}
+.books a{
+    margin: 9px 0px 0px 0px;
+    font-size: 20px;
+    width: 88%;
+    border-radius: 12px;
+    padding: 4px 1px 6px 0px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+}
