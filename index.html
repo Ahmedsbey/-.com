@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="pdf.css">
+    <link rel="stylesheet" href="index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400..700&display=swap" rel="stylesheet">
@@ -19,7 +19,7 @@
             </div>
             <div class="menu-option">
                 <ul>
-                    <li><a href="">Home</a></li>
+                    <li><a href="" onclick=bk(Edadiya)>Home</a></li>
                     <li><a href="">Books</a></li>
                     <li><a href="">Notes</a></li>
                     <li><a href="">About Us</a></li>
@@ -60,13 +60,14 @@
         <h1 class="urdu-text">کون سے فن کی کتابیں درکار ہیں</h1>
         <div class="class-cards">
             <div class="card">
-              <a href="classesbooks.html">  <p>اعدادیہ</p>
-                <p>Prep</p>
+              <a class="anch" href="classesbooks.html"   >  <p>اعدادیہ</p>
+                <p class="clname">Edadiya</p>
             </a>
             </div>
             <div class="card">
-                <p>اُولیٰ</p>
-                <p>First Class</p>
+                <a class="anch" href="classesbooks.html" >    <p>اُولیٰ</p>
+                <p class="clname">First Class</p>
+            </a>
             </div>
             <div class="card">
                 <p>ثانیہ</p>
@@ -144,8 +145,7 @@
     <div class="footer">
 
     </div>
-<script src="subject-cards.js"></script>
-    <script src="book-cards.js"></script>
+<script src="index.js"></script>
     
 </body>
 
