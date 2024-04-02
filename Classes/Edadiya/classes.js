@@ -133,18 +133,39 @@ let Edadiya = [
     }
 ]
 
-// booksList.forEach((books)=>{
-// const div = document.createElement('div')
-// div.classList.add('books')
-// div.innerHTML = 
-// `<div class="img-con">  <img src="${books.link}" alt="">
-// </div>
-// <div class="detail-con">   <h4 class="BName">Nisab-us-Sarf</h4>
-//   <p class="subName">Sub : <span>Usool e Hadees</span></p>
-//   <p class="authorN">Auth : <span>Madinat-ul-Ilmiya</span></p>
-//   <button>Download</button>`
-// books_card.appendChild(div)
-// })
+let Edadiya1 = [
+    {
+        BkName: "فارسی کی پہلی",
+        AuthName: "",
+        Sub: "فارسی زبان",
+        Lang: "",
+        BkUrl: "https://drive.google.com/file/d/1AFtvRGOJu7NXgK2npVTbUdhn7526Sk-D/view?usp=drivesdk",
+        BkImage: " "
+    },
+    {
+        BkName: "تشریحات رضوی شرح فارسی کی پہلی",
+        AuthName: "",
+        Sub: "شرح",
+        Lang: "",
+        BkUrl: "https://drive.google.com/file/d/1BIbK7pZCCzvF_8OaJqxH8sBe5c17lFqd/view?usp=drivesdk",
+        BkImage: " "
+    },
+    {
+        BkName: "گلزار دبستاں",
+        AuthName: "",
+        Sub: " فارسی زبان",
+        Lang: "",
+        BkUrl: "https://drive.google.com/file/d/1BMzzUnreeovNkeehEH9wsL8YBL164djo/view?usp=drivesdk",
+        BkImage: " "
+    },
+    {
+        BkName: "منہاج العربیہ اول",
+        AuthName: "",
+        Sub: "عربی زبان",
+        Lang: "",
+        BkUrl: "https://drive.google.com/file/d/1BYbu_pl7tWURYGdA9FH61yevub6ali74/view?usp=drivesdk",
+        BkImage: " "
+    }]
 
 function book(array) {
     array.forEach((books) => {
@@ -161,7 +182,6 @@ function book(array) {
     })
     console.log("run")
 }
+ book(Edadiya)
 
-
-book()
 

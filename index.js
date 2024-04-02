@@ -58,3 +58,14 @@ SubList.forEach((sub) => {
     <p>${sub.Subname2}</p>`
     subCards.appendChild(div)
 })
+
+
+let anch = document.querySelector('.anch')
+anch.addEventListener('click', (e)=>{
+    e.stopPropagation
+
+    console.log(e.target)
+    
+})
+
+
